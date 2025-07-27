@@ -106,10 +106,10 @@ export default function Porfolio() {
             transition={{ duration: 0.6 }}
             className="md:w-1/2 text-center md:text-left"
           >
-            <h1 className="text-5xl font-extrabold leading-tight mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+            <h1 className="text-xl font-extrabold leading-tight mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               Hi, Im Enh-Bayasgalan 
             </h1>
-            <p className="text-xl mb-6">A full-stack developer building modern, scalable web apps.</p>
+            <p className="text-2xl mb-6">A full-stack developer building modern, scalable web apps.</p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <button onClick={() => scrollToSection('projects')} className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition">
                 View My Work
