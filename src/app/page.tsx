@@ -75,7 +75,7 @@ export default function Porfolio() {
   return (
      <div className={`min-h-screen transition duration-300 ${darkmode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
       <Head>
-        <title>Bat-Erdene | Portfolio</title>
+        <title>Enhbayasgalan| Portfolio</title>
       </Head>
 
       <nav className={`fixed w-full z-50 backdrop-blur-md bg-white/70 dark:bg-gray-900/70 shadow-sm`}>
@@ -106,7 +106,7 @@ export default function Porfolio() {
             transition={{ duration: 0.6 }}
             className="md:w-1/2 text-center md:text-left"
           >
-            <h1 className="text-3xl font-extrabold leading-tight mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
+            <h1 className="text-2xl font-extrabold leading-tight mb-4 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
               Hi, Im Enh-Bayasgalan 
             </h1>
             <p className="text-2xl mb-6">A full-stack developer building modern, scalable web apps.</p>
@@ -192,7 +192,7 @@ export default function Porfolio() {
         </div>
       </motion.section>
 
-      <section id="contact" className="py-20 px-6 bg-gray-100 dark:bg-gray-800">
+      <section id="contact" className="py-20 px-6">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-6">Get In Touch</h2>
           <form className="space-y-4">
