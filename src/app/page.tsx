@@ -142,10 +142,10 @@ export default function Porfolio() {
             className="md:w-1/2 flex justify-center mt-10 md:mt-0"
           >
             <div className="relative w-64 h-64 md:w-80 md:h-80">
-              {/* Арын саарал дөрвөлжин (back box) */}
+              
               <div className="absolute top-4 left-4 w-full h-full bg-gray-200 rounded-md z-0" />
 
-              {/* Зурагтай үндсэн дөрвөлжин */}
+              
               <div className="relative w-full h-full rounded-md overflow-hidden shadow-xl z-10">
                 <img
                   src="./pinecone.png"
